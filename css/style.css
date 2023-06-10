@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cormorant;
+}
+
+html,body{
+    height: 100%;
+}
+
+@font-face{
+    src: url('../fonts/Cormorant.ttf');
+    font-family: Cormorant;
+}
+
+.clear{
+    clear: both;
+}
+
+.center{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.header{
+    min-width: 1280px;
+    width: 100%;
+    height: 100px;
+    background-color: #03030A;
+}
+
+.header img{
+    margin: 4px;
+    width: 95px;
+}
+
+.container-banner{
+    min-width: 1280px;
+    width: 100%;
+    height: 525px;
+    background-image: url('../imagens/banner-vikings.jpg');
+    background-size: cover;
+    background-position: top;
+}
+
+.container-banner > .center{
+    height: 100%;
+}
+
+.form{
+    padding: 10px;
+    width: 400px;
+    height: calc(100% + 30px);
+    float: right;
+    position: relative;
+    top: -15px;
+    border: 5px solid #ccc;
+    background-color: whitesmoke;
+}
+
+.form h2{
+    text-align: center;
+    font-weight: normal;
+    color: #03030A;
+    font-size: 25px;
+}
+.input-container{
+    margin-top: 20px;
+}
+
+.input-container span, .form p{
+    margin: 5px;
+    display: inline-block;
+    width: 100%;
+    color: #767676;
+    font-size: 18px;
+}
+
+.form p{
+    margin: 10px 0;
+}
+
+.input-container input[type=text]{
+    margin: 5px;
+    width: 350px;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #767676;
+}
+
+.form .input-submit{
+    text-align: center;
+}
+
+.form input[type=submit]{
+    display: inline-block;
+    font-size: 25px;
+    width: 200px;
+    height: 40px;
+    color: white;
+    background-color: #15153A;
+    border: 1px solid black;
+}
+
+.form input[type=submit]:hover{
+    background-color: #03030A;
+    cursor: pointer;
+}
+
+.form input[type=submit]:focus{
+    background-color: #0D0D2F;
+    cursor: pointer;
+}
+
+.container-list{
+    padding: 35px;
+    float: left;
+    width: 600px;
+    height: 270px;
+    background-color: rgb(3, 3, 10, 0.6);
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.container-list ul{
+    list-style-position: inside;
+
+}
+.container-list li{
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+/* Aqui finaliza a parte do Header e do Banner */
+
+/* Aqui começa a parte da descrição do site */
+
+.what-is{
+    min-width: 1280px;
+    padding: 40px 0;
+    background-color: #D8D8DE;
+    text-align: center;
+
+}
+
+.what-is h2{
+    font-weight: normal;
+    font-size: 26px;
+}
+
+.what-is p{
+    width: 700px;
+    margin: 20px 0;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.arrow{
+    position: relative;
+    top: 60px;
+    left: 50%;
+    margin-left: -20px;
+    width: 50px;
+    height: 50px;
+    background-image: url('../imagens/arrow.png');
+    background-size: 100% 100%;
+}
+
+
+.container-single img{
+    width: 100px;
+    height: 100px;
+}
+
+.section-one{
+    min-width: 1280px;
+    padding: 90px 0;
+}
+
+.section-one > h2{
+    font-size: 30px;
+    color: #111111;
+    text-align: center;
+    font-weight: normal;
+}
+
+.container-single h2{
+    font-size: 28px;
+    color: #111111;
+    text-align: center;
+    font-weight: normal;
+}
+
+.container-section{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.container-single{
+    float: left;
+    width: 33.333%;
+    padding: 30px;
+}
+
+.container-single p{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 80px;
+    padding: 10px 30px; 
+}
+
+.footer{
+    min-width: 1280px;
+    width: 100%;
+    height: 20%;
+    margin-top: 90px;
+    background-color: #03030A;
+    border-top: 2px solid #03030A;
+    padding: 30px 0;
+    text-align: center;
+    color: #CACACA;
+}
+
+.footer p{
+    font-size: 20px;
+}
+
+.footer p:first-child{
+    margin-top: 10px;
+}
